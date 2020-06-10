@@ -154,7 +154,7 @@
 * smalltalk_agent_funny
   - utter_smalltalk_agent_funny
 
-# path_smalltalk_agent_hungry
+## path_smalltalk_agent_hungry
 * smalltalk_agent_hungry
   - utter_smalltalk_agent_hungry
 
@@ -253,3 +253,14 @@
 ## path_smalltalk_user_sleepy
 * smalltalk_user_sleepy
   - utter_smalltalk_user_sleepy
+
+## New Story
+
+* greet
+    - utter_greet
+* mood_unhappy
+    - utter_cheer_up
+    - utter_did_that_help
+* affirm
+    - utter_happy
+    - utter_goodbye

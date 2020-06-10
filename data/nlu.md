@@ -33,6 +33,7 @@
 - Absolutely yeah.
 - Right
 - Absolutely right
+- Yes
 
 ## intent:deny
 - no
@@ -158,7 +159,6 @@
 - unintelligible thank you
 - thank yaaa
 - um okay thank you.
-- I am obligated
 - Very thankful
 
 ## intent:smalltalk_agent_age
@@ -648,7 +648,6 @@
 - thank you good night
 - bye good night
 - good night bye
-- bye good night
 - good good night
 - good night for now
 - goodnight
@@ -658,7 +657,6 @@
 - alright goodnight
 - good tonight
 - okay have a good night
-- have a good night
 
 ## intent:smalltalk_user_angry
 - I'm being mad
