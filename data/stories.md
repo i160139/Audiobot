@@ -77,3 +77,17 @@
 ## ask fine
 * ask_fine
   - utter_fine_answer
+
+## New Story
+
+* greet
+    - utter_greet
+* ask_fine
+    - utter_fine_answer
+* global_warming
+    - utter_global_answer
+* mood_unhappy
+    - utter_cheer_up
+    - utter_did_that_help
+* deny
+    - utter_goodbye
