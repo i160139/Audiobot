@@ -36,7 +36,7 @@ responses:
   - text: I am alright No worries
   - text: Fine as a horse
 
-    utter_global_answer:
+  utter_global_answer:
   - text: Global warming is the temperature of Earth's surface, oceans and atmosphere
       going up over tens of years. ... The most noticeable changes because of this
       increase in temperature is the melting of ice caps all around the world. Sea
