@@ -109,7 +109,6 @@
 - Do you believe [global warming] (global) is due to natural or anthropogenic causes?
 - causes of [global warming] (global)
 - effect of [green house gases] (global)
-<<<<<<< HEAD
 
 ## intent:stop
 - do you have something else
@@ -783,5 +782,3 @@
 - I'm getting tired
 - I feel tired
 
-=======
->>>>>>> a684408fdd19634d9aa897e79843f9a667ee249d
