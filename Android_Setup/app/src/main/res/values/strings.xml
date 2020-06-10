@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Audiobot</string>
+    <string name="prompt">Hello I am your Bot friend</string>
+    <string name="initial_phrase">Tell me what you want to talk about?</string>
+</resources>

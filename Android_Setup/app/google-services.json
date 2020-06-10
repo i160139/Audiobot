@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230909504858",
+    "firebase_url": "https://fypmideval-f19-27-d-audiobot.firebaseio.com",
+    "project_id": "fypmideval-f19-27-d-audiobot",
+    "storage_bucket": "fypmideval-f19-27-d-audiobot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230909504858:android:80347ecbae87ec63d99763",
+        "android_client_info": {
+          "package_name": "com.justai.aimybox.assistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230909504858-08oppinnls9icth25md2mv2jn2sejpvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.justai.aimybox.assistant",
+            "certificate_hash": "9fa3fbfa4bffaba3fc4b39f9d08c0921f2ed6ae7"
+          }
+        },
+        {
+          "client_id": "230909504858-drs5iejlm5ne77jere5ha09bred08u1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGFUccG4rwYsLfux5o5ekD1eI9NX7F030"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230909504858-drs5iejlm5ne77jere5ha09bred08u1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
