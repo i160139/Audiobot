@@ -2,37 +2,13 @@
 - hey
 - hello
 - hi
+- good morning
+- good evening
 - hey there
 - Hello
 - hya
 - Wola
 - Salam
-- hola
-- hi there
-- hi hi
-- I am calling you.
-- haiya
-- Hey Audiobot
-- Hey Bot
-- Hi bot
-- Hey bot
-- hi again
-- hi folk
-- hi Mister
-- hi pal!
-- hi there
-- greetings
-- hello everybody
-- hello is anybody - there
-- hello robot
-- hallo
-- heeey
-- hey hey
-- hello there
-- yo
-- hey bot!
-- hello friend
-- howdy
 
 ## intent:goodbye
 - bye
@@ -45,17 +21,6 @@
 - Bye Bye
 - Byea
 - Good Life
-- ttyl
-- bye then
-- let us end this
-- i am going
-- finish it
-- let us end this discussion
-- I have work
-- Okay I gotta go
-- No, I am good as of now. Bye
-- Bbye
-- Ok I am currently busy see you later
 
 ## intent:affirm
 - yes
@@ -63,42 +28,11 @@
 - of course
 - that sounds good
 - correct
+- Yeah
 - Thats correct
 - Absolutely yeah.
 - Right
 - Absolutely right
-- alright
-- true
-- Exactly
-- Right on point
-- Right
-- This is good
-- okay
-- yeah
-- Hmmm
-- hmm
-- Absolutely right
-- Pin point
-- Yeah. That helped alot.
-- ye
-- uh yes
-- let's do it
-- yeah
-- uh yes
-- um yes
-- yes knocking
-- that's correct
-- yes yes
-- yea
-- yes right
-- right on
-- i love that
-- heck yeah
-- sure
-- yes!
-- yep!
-- yep
-- sure!
 
 ## intent:deny
 - no
@@ -107,21 +41,12 @@
 - don't like that
 - no way
 - not really
+- No
 - I refuse
 - Thats not way correct
 - Nah
 - Nope
 - Nay
-- not this
-- False
-- incorrect
-- Negative
-- Disapprove
-- no new selection
-- no thanks
-- no thank you
-- uh no
-- heck no
 
 ## intent:mood_great
 - perfect
@@ -134,11 +59,6 @@
 - I'm good
 - I am happy
 - Very lucky
-- What a beautiful day with beautiful mood
-- I am very calm today
-- What a wonderful day.
-- Whaht a wonderful life
-- Ahh I am calm. 
 
 ## intent:mood_unhappy
 - sad
@@ -155,20 +75,7 @@
 - I am not feeling good
 - not happy
 - low on mood
-- my mood is bad
-- my mood is awful
-- I am awful
-- I am terrible
-- My mood is terrible
-- not very good
-- extremely sad
-- so sad
-- I am sad.
-- I am feeling low today
-- I am very sad today
-- I am very lonely today
-- I am feeling sad
-- I was sad today
+- feeling low
 
 ## intent:bot_challenge
 - are you a bot?
@@ -177,37 +84,11 @@
 - am I talking to a human?
 - Are you logic?
 - Are you code?
-- what are you?
-- who are you?
-- tell me more about yourself
-- you human?
-- you are an AI?
-- why do you exist?
-- What is your purpose
-- Tell me about yourself?
-- Are you electricity
-- are you real?
-- who are you?
-- all about you
-- what is your personality
-- define yourself
-- what are you
-- say about you
-- introduce yourself
-- describe yourself
-- about yourself
-- tell me about you
-- tell me about yourself
-- I want to know more about you
-- I want to know you better
-- talk some stuff about yourself
-- tell me some stuff about you
-- talk about yourself
-- why are you here
-- tell me about your personality
-- who are you
+- I think you are not human
 
 ## intent:ask_fine
+- I'm fine, how are you?
+- I'm good, how are you?
 - How are you?
 - How do you do?
 - What’s up.. You Gud?
@@ -215,14 +96,9 @@
 - What’s going on?
 - How are you doing?
 - How’s it going?
+- how are you doing?
 - how do you do
-- whats up?
-- you bored?
-- Are you in good health
-- You fine?
-- You good?
-- whas up?
-- Aren't you bored.
+- how are you doing
 
 ## intent:global_warming
 - What is [global warming] (global)?
@@ -233,6 +109,7 @@
 - Do you believe [global warming] (global) is due to natural or anthropogenic causes?
 - causes of [global warming] (global)
 - effect of [green house gases] (global)
+<<<<<<< HEAD
 
 ## intent:stop
 - do you have something else
@@ -906,3 +783,5 @@
 - I'm getting tired
 - I feel tired
 
+=======
+>>>>>>> a684408fdd19634d9aa897e79843f9a667ee249d
