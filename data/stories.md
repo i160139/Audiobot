@@ -4,7 +4,7 @@
 * mood_great
   - utter_happy
 
-## sad path 1
+## sad path
 * greet
   - utter_greet
 * mood_unhappy
@@ -50,7 +50,7 @@
 * ask_fine
   - utter_fine_answer
 * affirm
-  - utter_happy 
+  - utter_happy
 
 ## say green house 
 * global_warming
@@ -73,7 +73,7 @@
   - utter_did_that_help
 * deny
   - utter_goodbye
-  
+
 ## ask fine
 * ask_fine
   - utter_fine_answer
