@@ -822,7 +822,6 @@
 - I can't sleep
 - I can't fall asleep
 - I can't get to sleep
-- I can't get no sleep
 - I'm insomniac
 
 ## intent:smalltalk_user_does_not_want_to_talk

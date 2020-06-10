@@ -79,7 +79,6 @@
   - utter_fine_answer
 
 ## New Story
-
 * greet
     - utter_greet
 * ask_fine
