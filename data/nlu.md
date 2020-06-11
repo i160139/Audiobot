@@ -100,6 +100,7 @@
 - how are you doing?
 - how do you do
 - how are you doing
+- I am fine
 
 ## intent:global_warming
 - What is [global warming] (global)?
@@ -778,3 +779,292 @@
 - I'm worn out
 - I'm getting tired
 - I feel tired
+
+## intent:weatherInformation
+- can you inform me [berlin](location)
+- can you plz give me [islamabad ] (location)
+- can you plz inform [islamabad ] (location)details
+- weather of [faisalabad](location)
+- weather of [karachi](location)
+- [karachi](location)weather
+- [islamabad](location) weather
+- what is weather
+- what is the weather in [karachi] (location)
+- is it rainy
+- is it hot
+- show me weather
+- I want to know weather of [Germany](location)
+- is it a sunny day
+- i am feeling hot? what is weather
+- What's the weather in [Berlin](location) at the moment?
+- What's the weather today?
+- What's the weather in [London] (location) today?
+- Show me what's the weather in [Paris](location)
+- I wonder what is the weather in [Vilnius] (location) right now?
+- Is the weather nice in [Barcelona](location) today?
+- I am going to [London](location) today and I wonder what is the weather out there?
+- weather of [rawalpindi](location)
+- I am planning my trip to [Amsterdam] (location). What is the weather out there?
+- Show me the weather in [Dublin] (location), please
+- in [London] (location)
+- Oh, sorry, in [Italy](location)
+- weather of [murree](location)
+- weather of [Gilgit baltistan](location)
+- The weather condition in [Italy](location)
+- weather of [Lahore](location)
+- weather of [London](location)
+- weather of [berlin](location)
+- weather of [scotland](location)
+- weather of [Germany](location)
+- weather of [faisalabad](location) is hot
+- weather of [karachi](location) is rainy
+- weather of [islamabad](location) is cold
+- weather of [rawalpindi](location) is hot
+- weather of [murree](location)is rainy
+- weather of [Gilgit baltistan](location)is rainy
+- weather of [Lahore](location)is rainy
+- weather of [London](location)is rainy
+- weather of [berlin](location)is rainy
+- weather of [scotland](location)is rainy
+- weather of [Germany](location)is rainy
+- is it hot in [multan] (location)
+- is it hot in [attock](location)
+- weather of [attock] (location)
+- tell me about weather
+- weather of [dubai](location)
+- tell me [scotland](location) weather
+- do you weather of [berlin](location)
+- i feel vey cold. what is the weather today in [islamabad] (location)
+- i feel very hot what is weather in [islamabad](location)
+- i want to know what is weather in [riyadh](location)
+- what is weather in [riyadh](location) just want to know
+- what is weather in [london](location)
+- i am feeling cold
+- [Rawalpindi](location)
+- i feel very hot show me weather
+- Dublin
+- [dublin](location)
+- tell me weather of [riyadh](location)
+- [medina](location) weather show me please
+- [makkah](location) is a hot city or cold
+- tell me dammam weather
+- [dammam](location)
+- tell me [makkah](location) weather
+- tell me [medina](location) weather
+- i want to go to [new york](location) for spending my holidays tell me its weather
+- i want to go to [london](location) next week for spending my vacations tell me weather location
+- what is temperature in [saudi arabia](location)
+- i wanna go to [london](location) give me weather
+- give me [timbuktu] (location) weather
+- [timbuktu] (location)
+- please tell me [berlin](location) weather
+- what is weather right now
+- [rawalpindi](location)
+- is it hot today
+- [canada](location)
+- i want to go to [germany](location) tell the weather
+- show me weather of [riyadh](location)
+- i am planning my trip to [amsterdam](location) . what is weather out there?
+- i am planning my trip to [karachi](location) what is weather out there
+- i am planning my trip to amsterdam what is weather out there?
+- [amsterdam] (location)
+- i am planning my trip to rawalpindi tell me weather
+- i wanna go to lahore what is the weather
+- i wonder what is the weather in vilnius right now
+- i wonder what is weather in [vilnius](location) right now
+- is the weather nice in [lahore](location) today
+- i am planning to [london](location) and i wonder what is weather out there?
+- i am planning to go to [lahore] (location) for searching my job what is the weather
+- sorry i want to know weather of [itlay](location)
+- i am going for picnic in [murree](location) show me weather condition
+- oh i fell vey cold
+- what is the weather outside
+- [karachi] (location)
+- what is weather outside
+- weather in [berlin](location)
+- what is weather today
+- is it hot outside
+- [islamabad](location)
+- tell me weather in [paris](location)
+- is it cold outside
+- delhi
+- i wonder what is the weather outside
+- [rawlpindi ](location)
+- what is english language
+- english language
+
+## intent:informRestaurant
+- afghan food
+- how bout [asian oriental](hotel_info)
+- what about [indian food](hotel_info)
+- tell me [near by restaurants](hotel_info)
+- [hotels in lahore](hotel_info)
+- [hotels in islamabad] (hotel_info)
+- can u plz tell me [murree hotels](hotel_info)
+- [hotels in gilgit baltistan] (hotel_info)
+- [restaurants in mombay](hotel_info)
+- [hotels in karachi](hotel_info)
+- [hotels in rawalpindi](hotel_info)
+- i am [hungry](hotel_info)
+- tell me about [restaurants in islamabad](hotel_info)
+- [i am starving](hotel_info)
+- [italian food] (hotel_info)
+- [italian food in lahore](hotel_info)
+- [italian food in murree](hotel_info)
+- [italian food in karachi](hotel_info)
+- [italian food in islamabad](hotel_info)
+- [italian food in rawalpindi](hotel_info)
+- [chinese food](hotel_info)
+- [chinses food in rawalpindi](hotel_info)
+- [chinses food in karachi](hotel_info)
+- [chinses food in lahore](hotel_info)
+- [chinses food in islamabad](hotel_info)
+- [burgers in lahore](hotel_info)
+- [burgers in islamabad](hotel_info)
+- [bbq restaurant](hotel_info)
+- mje bhhok lagi ha tell me good [restaurants] (hotel_info)
+- [bbq food in rawalpindi](hotel_info)
+- [bbq food in lahore](hotel_info)
+- [chicken kari restaurants in lahore](hotel_info)
+- [chicken kari restaurants in rawalpindi](hotel_info)
+- [chicken kari restaurants in islamabad] (hotel_info)
+- [chicken kari restaurants in karachi](hotel_info)
+- [biryani in rawalpindi](hotel_info)
+- [biryani in lahore](hotel_info)
+- [biryani in karachi](hotel_info)
+- [biryani in islamabad](hotel_info)
+- restaurants in [Hunza] (hotel_info)
+- [hotels in Hunza](hotel_info)
+- [hotels in gilgit baltistan](hotel_info)
+- [restaurants in gilgit baltistan](hotel_info)
+- [restaurants near scotland] (hotel_info)
+- [restaurants near Fast University] (hotel_info)
+- [restaurants near Iqra University] (hotel_info)
+- [restaurants near CUST University] (hotel_info)
+- [hotels near Riyadh](hotel_info)
+- [good place] (hotel_info)  to eat
+- hotels [near scotland] (hotel_info)
+- i am [hungry] (hotel_info) my mom is not at home tell me something to eat
+- i want [vegetable food] (hotel_info).
+- show me best [shawarma hotels] (hotel_info)
+- i want to eat [chinese food] (hotel_info)
+- can you show the food in a moderate price range with [british food] (hotel_info) for four people.
+- [central indian restaurant] (hotel_info)
+- I’m hungry. Looking out for some good [chinese restaurants in islamabad] (hotel_info)
+- i am looking for an [italian restaurent in lahore] (hotel_info)
+- find [restaurents in karachi for chinese] (hotel_info) cusine
+- look for [restuarent in islamabad](hotel_info)
+- search [thai food] (hotel_info) joints
+- find American [food outlets in karachi] (hotel_info)
+- I’m hungry. Looking out for some [good restaurants] (hotel_info)
+- help me with [food options] (hotel_info)in my city.
+- give me some good [food option] (hotel_info)
+- i would like to have [Thai food] (hotel_info)
+- i wants to know the dishes from [lahori restaurants] (hotel_info)
+- serve me [north indian foods] (hotel_info)
+- send some [American restaurents] (hotel_info)
+- send a [list of restaurents in rawalpindi] (hotel_info)
+- find me a [cheap restaurent] (hotel_info)
+- find me a [moderate range restaurent] (hotel_info)
+- search a list of [costly restaurants in paris] (hotel_info)
+- find some [costly restaurants for thai food] (hotel_info)
+- [PocketFriendly restaurant] (hotel_info)
+- find a [Pocket Friendly restaurant] (hotel_info)
+- find [pocket friendly restaurant in rawalpindi] (hotel_info)
+- find pocket friendly [thai restaurant in karachi](hotel_info)
+- pocket friendly [restaurant less than 400] (hotel_info)
+- [costliest restaurant of islamabad] (hotel_info)
+- costliest [restaurant in islamabad] (hotel_info)
+- tell me some [near by restaurants](hotel_info)
+- Is there any [grocery market] (hotel_info) near me
+- I want to take my children [shopping mall] (hotel_info)
+- Tell me about the [parks near me] (hotel_info)
+- my kids want me to take them somewhere tell me [parks] (hotel_info)
+- tell me about some [place nearby] (hotel_info)
+- tell me [parks of islamabad] (hotel_info)
+- tell me [parks of Lahore] (hotel_info)
+- tell me [near by place] (hotel_info) to visit
+- inform me [near by shopping mall] (hotel_info)
+- inform me [malls of lahore] (hotel_info)
+- inform me [berlin restaurants] (hotel_info)
+- our friend want to visit some [place near Fast University] (hotel_info)
+- our friend want to visit some [cinemas near me] (hotel_info)
+- our friend want to visit [places near Islamabad] (hotel_info)
+- i want to play cricket is thera a [park near by] (hotel_info)
+- i want to buy pants [nearest shipping mall] (hotel_info)
+- i want to buy shirts tell me [nearest shopping mall] (hotel_info)
+- My girlfriend is hungry tell me [nearest restaurant] (hotel_info)
+- i want to workout tell me about a [gym nearby] (hotel_info)
+- i need medical assistance tell me about a [pharmacy nearby] (hotel_info)
+- i want to go to this weekend show me some [hotels near murree](hotel_info)
+- tell me [near by hospitals] (hotel_info)
+- tell me [hospitals of Lahore] (hotel_info)
+- tell me some [near by restaurants] (hotel_info)
+- tell me [near by parks] (hotel_info)
+- [parks] (hotel_info)
+- Is there a [park near me] (hotel_info) where I could go for a walk
+- i need to buy duppata for my fyp dress suggest me good [market in islamabad](hotel_info)
+- my wife is insisting me to go out for shopping what are [shopping malls near] (hotel_info) me
+- tell me about [malls in lahore](hotel_info)
+- i wanna go for shopping tell me shopping malls near my location
+- shopping malls near my location
+- tell me [shopping malls near my location](hotel_info)
+- i want to visit some places in lahore with my friends
+- i want to go for [shopping] (hotel_info)
+- i want to visit to [lahore places](hotel_info)
+- i want to go to shopping with my friends can you plz sugggest me [shopping malls near my location](hotel_info)
+- i have to go to my friend birthday show me [shopping malls in islamabad](hotel_info)
+- i want to purchase some dreeses for my sister wedding can you please inform me good shopping malls
+- i want to purchase some dresses can you please inform me shopping [malls in karachi](hotel_info)
+- i am bored and want to visit some [places in lahore](hotel_info)
+- i want to visit places [in karachi](hotel_info)
+- i want to go for [shopping](hotel_info) with [my](hotel_info) friend show me some [shopping malls near my loaction](hotel_info)
+- i want to go for [shopping](hotel_info) with my sister tell me [shopping malls in islamabad](hotel_info)
+- i want to purchase some dresses for my sister wedding suggest me shopping malls in karachi
+- [shopping malls in karachi](hotel_info)
+- i want to purchase stich dresses for my son suggest me [shopping malls near my location](hotel_info)
+- i want to buy comfortable shoes tell me [shopping malls](hotel_info)
+- i want to know about [shopping malls in delhi](hotel_info)
+- tell me shopping malls in paris i wanna buy a perfume
+- suugest me shopping malls in lahore i want to buy dress for my sister wedding
+- tell me shopping malls in karachi i want to purchase it for my sister wedding
+- i want to buy [a](hotel_info) present suggest me [shopping malls in paris](hotel_info)
+- i like to purchase a dress for [my son](hotel_info) suggest me rawalpindi [shopping malls](hotel_info)
+- [shopping malls in paris](hotel_info)
+- my friend like to purchase [paris](location) purfume suggest some [shopping malls in paris](hotel_info)
+- my sister would like to buy dress from [lahore defence malls](hotel_info)
+- i just to go to [karachi malls] (hotel_info) and will purchase dresses for my nephew
+- i just wish to go to lahore and purchase dress for my newphew from [malls in karachi](hotel_info)
+- i guess my frend purchase these dresses from [karachi malls] (hotel_info)
+- my sister law want to puchase dresses from [rawalpindi bazars] (hotel_info)
+- tell me [parks in karachi](hotel_info)
+- my kids want me to take out to parks suggest [parks in canada](hotel_info)
+- i want to purchase dress suggest some [shopping malls](hotel_info)
+- i want to purchase dress suggest some [shopping places](hotel_info)
+- desi [foos restaurants]{"entity": "hotel_info", "value": "food restaurants"}
+- famous [food in pakistan](hotel_info)
+- breakfast [restaurants in lahore](hotel_info) my mama wantes to know about [it](hotel_info)
+- breakfast [restaurants in lahore](hotel_info) my sister wanted to know it
+- famous [restaurants in karachi](hotel_info) mom brother would like to go there
+- [restaurants in karachi](hotel_info)
+- mumbai city restaurants name
+- [famous restaurants in mumbai](hotel_info)
+- my mother wanted to know famous [food in malaysia](hotel_info)
+- [turkey dinner places](hotel_info)
+- aghani food i would like to eat
+- [afghani food](hotel_info)
+- i would like to eat [chinese food](hotel_info)
+- [famous food in china](hotel_info)
+- [largest city of pakistan](hotel_info)
+- [staten in azad kashmir]{"entity": "hotel_info", "value": "states in azad kashmir"}
+- shopping mall in new york my nephew want to know about it
+- [shopping malls in new york](hotel_info)
+
+## synonym:berlin
+- Berlin
+
+## synonym:food restaurants
+- foos restaurants
+
+## synonym:states in azad kashmir
+- staten in azad kashmir

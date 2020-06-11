@@ -51,6 +51,13 @@ intents:
 - smalltalk_agent_talk_to_me
 - deny
 - smalltalk_user_angry
+<<<<<<< HEAD
+- weatherInformation
+- informRestaurant
+
+=======
+- user_fine
+>>>>>>> 38c6f98c2fff323e5db2f6b0658ff04c9b4d0c16
 responses:
   utter_greet:
   - text: Hey! Whas up.. How are you
@@ -177,8 +184,6 @@ responses:
   - text: It's okay. No worries.
   utter_smalltalk_emotions_ha_ha:
   - text: I wish I could laugh out loud, too.
-  - text: I like it when people laugh.
-  - text: Glad you think I'm funny.
   - text: Glad I can make you laugh.
   utter_smalltalk_emotions_wow:
   - text: Wow indeed!
@@ -250,12 +255,16 @@ responses:
   - text: Do you want any thing else
   - text: Do you want to continue?
   utter_welcome:
-  - text: Great, carry on!
   - text: I am happy to assist you.
   - text: Yeah. I am awsome.
   - text: I have no feelings.
   - text: It is my duty
   - text: You're welcome!
+  utter_glad_fine:
+  - text: Glad to hear that
+  - text: Very good
+  - text: Ahan. As expected
+  - text: Blessed person
 actions:
 - utter_greet
 - utter_cheer_up
@@ -306,3 +315,17 @@ actions:
 - utter_smalltalk_user_sleepy
 - utter_ask_continue
 - utter_welcome
+<<<<<<< HEAD
+- action_restaurant
+- utter_ask_hotel_info
+- utter_ask_location
+- utter_confirm_if_service_is_correct
+entities:
+- hotel_info
+- location
+forms:
+- restaurant_form
+- weather_information_form
+=======
+- utter_glad_fine
+>>>>>>> 38c6f98c2fff323e5db2f6b0658ff04c9b4d0c16
