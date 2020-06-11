@@ -51,9 +51,18 @@ intents:
 - smalltalk_agent_talk_to_me
 - deny
 - smalltalk_user_angry
-- user_fine
 - weatherInformation
 - informRestaurant
+entities:
+- hotel_info
+- location
+slots:
+  hotel_info:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 responses:
   utter_greet:
   - text: Hey! Whas up.. How are you
@@ -319,10 +328,6 @@ actions:
 - action_restaurant
 - utter_ask_hotel_info
 - utter_ask_location
-entities:
-- hotel_info
-- location
 forms:
 - restaurant_form
 - weather_information_form
-
