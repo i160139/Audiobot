@@ -261,6 +261,10 @@ responses:
   - text: Very good
   - text: Ahan. As expected
   - text: Blessed person
+  utter_ask_hotel_info:
+  - text: Tell me exactly what you want.
+  utter_ask_location:
+  - text: Tell me city name?
 actions:
 - utter_greet
 - utter_cheer_up
