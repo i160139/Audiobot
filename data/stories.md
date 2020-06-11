@@ -264,3 +264,15 @@
 * affirm
     - utter_happy
     - utter_goodbye
+
+## New Story
+
+* greet
+    - utter_greet
+* ask_fine
+    - utter_glad_fine
+* mood_unhappy
+    - utter_cheer_up
+    - utter_did_that_help
+* deny
+    - utter_goodbye

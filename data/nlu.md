@@ -100,6 +100,7 @@
 - how are you doing?
 - how do you do
 - how are you doing
+- I am fine
 
 ## intent:global_warming
 - What is [global warming] (global)?
