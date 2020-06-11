@@ -276,3 +276,535 @@
     - utter_did_that_help
 * deny
     - utter_goodbye
+
+## interactive_story_33
+* greet
+    - utter_greet
+* weatherInformation{"location": "berlin"}
+    - slot{"location": "berlin"}
+    - weather_information_form
+    - weather_information_form
+* weatherInformation
+    - utter_ask_location
+* weatherInformation{"location": "Rawalpindi"}
+    - slot{"location": "Rawalpindi"}
+    - weather_information_form
+    - form{"name": "weather_information_form"}
+    - slot{"location": "Rawalpindi"}
+    - slot{"location": "Rawalpindi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+
+
+## interactive_story_222
+* greet
+    - utter_greet
+* informRestaurant
+  -  restaurant_form
+  -  form{"name": "restaurant_form"}
+  -  slot{"requested_slot": "hotel_info"}
+
+* informRestaurant{"hotel_info": "hotels of karachi"}
+    - slot{"hotel_info": "hotels of karachi"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "thai food restaurants"}
+    - slot{"hotel_info": "thai food restaurants"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "chinese restaurant in rawalpindi"}
+    - slot{"hotel_info": "chinese restaurant in rawalpindi"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "hotels in rawalpindi"}
+    - slot{"hotel_info": "hotels in rawalpindi"}
+    - restaurant_form
+* informRestaurant
+    - restaurant_form
+* informRestaurant{"hotel_info": "five star gotel in karachi"}
+    - slot{"hotel_info": "five star gotel in karachi"}
+    - restaurant_form
+
+
+## interactive_story_22
+* greet
+    - utter_greet
+* informRestaurant{"hotel_info": "malls in lahore"}
+    - slot{"hotel_info": "malls in lahore"}
+    - restaurant_form
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "malls in lahore"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - utter_ask_hotel_info
+* informRestaurant
+* informRestaurant{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls in lahore"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "lahore places"}
+    - slot{"hotel_info": "lahore places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "lahore places"}
+    - slot{"hotel_info": "lahore places"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls in islamabad"}
+    - slot{"hotel_info": "shopping malls in islamabad"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in islamabad"}
+    - slot{"hotel_info": "shopping malls in islamabad"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in islamabad"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "malls in karachi"}
+    - slot{"hotel_info": "malls in karachi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "malls in karachi"}
+    - slot{"hotel_info": "malls in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "places in lahore"}
+    - slot{"hotel_info": "places in lahore"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in lahore"}
+    - slot{"hotel_info": "places in lahore"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "in karachi"}
+    - slot{"hotel_info": "places in karachi"}
+
+## interactive_story_111
+* greet
+    - utter_greet
+* weatherInformation
+    - utter_ask_location
+* weatherInformation{"location": "rawalpindi"}
+    - slot{"location": "rawalpindi"}
+    - weather_information_form
+    - form{"name": "weather_information_form"}
+    - slot{"location": "rawalpindi"}
+    - slot{"location": "rawalpindi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* weatherInformation
+    - utter_ask_location
+* weatherInformation{"location": "islamabad"}
+    - slot{"location": "islamabad"}
+    - weather_information_form
+    - form{"name": "weather_information_form"}
+    - slot{"location": "islamabad"}
+    - slot{"location": "islamabad"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* weatherInformation{"location": "paris"}
+    - slot{"location": "paris"}
+    - weather_information_form
+    - form{"name": "weather_information_form"}
+    - slot{"location": "paris"}
+    - slot{"location": "paris"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* weatherInformation
+    - utter_ask_location
+* weatherInformation
+* weatherInformation
+    - utter_ask_location
+* weatherInformation{"location": "rawlpindi"}
+    - slot{"location": "rawlpindi"}
+    - weather_information_form
+* informRestaurant{"hotel_info": "shopping malls near my loaction"}
+    - slot{"hotel_info": "shopping malls near my loaction"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "shopping malls in islamabad"}
+    - slot{"hotel_info": "shopping malls in islamabad"}
+    - restaurant_form
+    - action_restaurant
+* informRestaurant
+    - utter_ask_hotel_info
+* informRestaurant{"hotel_info": "shopping malls in karachi"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - slot{"hotel_info": "shopping malls near my location"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls"}
+    - slot{"hotel_info": "shopping malls"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls"}
+    - slot{"hotel_info": "shopping malls"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls in delhi"}
+    - slot{"hotel_info": "shopping malls in delhi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in delhi"}
+    - slot{"hotel_info": "shopping malls in delhi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - action_restaurant
+* informRestaurant
+* informRestaurant
+* informRestaurant{"hotel_info": "shopping malls in karachi"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - slot{"hotel_info": "shopping malls in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "shopping malls"}
+    - slot{"hotel_info": "shopping malls"}
+    - restaurant_form
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"location": "paris", "hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - slot{"location": "paris"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "lahore defence malls"}
+    - slot{"hotel_info": "lahore defence malls"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "lahore defence malls"}
+    - slot{"hotel_info": "lahore defence malls"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "lahore defence malls"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"location": "newphew", "hotel_info": "malls in karachi"}
+    - slot{"hotel_info": "malls in karachi"}
+    - slot{"location": "newphew"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "malls in karachi"}
+    - slot{"hotel_info": "malls in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "malls in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "malls in rawalpindi"}
+    - slot{"hotel_info": "parks in lahore"}
+
+* informRestaurant{"hotel_info": "shopping malls in paris"}
+    - slot{"hotel_info": "places in lahore"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in karachi"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"location": "paris", "hotel_info": "places"}
+    - slot{"hotel_info": "honeymoon places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in karachi"}
+    - slot{"hotel_info": "beach"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "honey moon places"}
+    - slot{"hotel_info": "beach"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in dubai"}
+    - slot{"hotel_info": "places in saudi arabia"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in dubai"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - slot{"hotel_info": "malls in rawalpindi"}
+    - slot{"location": "newphew"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "beach"}
+    - slot{"hotel_info": "parks in new york"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "parks in canada"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "parks in karachi"}
+    - slot{"hotel_info": "picnic places in karachi"}
+
+
+
+* informRestaurant{"hotel_info": "shopping malls in islamabad"}
+    - slot{"hotel_info": "places in lahore"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in islamabad"}
+    - slot{"hotel_info": "shopping malls in paris"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"location": "paris", "hotel_info": "places"}
+    - slot{"hotel_info": "honeymoon places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in lahore"}
+    - slot{"hotel_info": "beach"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "honey moon places"}
+    - slot{"hotel_info": "beach"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in dubai"}
+    - slot{"hotel_info": "places in saudi arabia"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in saudi arabia"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - slot{"hotel_info": "malls in paris"}
+    - slot{"location": "newphew"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "beach"}
+    - slot{"hotel_info": "lahore malls"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in canada"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "parks in lahore"}
+    - slot{"hotel_info": "picnic places in karachi"}
+
+## interactive_story_11
+* informRestaurant{"hotel_info": "parks in karachi"}
+    - slot{"hotel_info": "parks in karachi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "parks in karachi"}
+    - slot{"hotel_info": "parks in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "parks in canada"}
+    - slot{"hotel_info": "parks in canada"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "parks in canada"}
+    - slot{"hotel_info": "parks in canada"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "shopping malls"}
+    - slot{"hotel_info": "shopping malls"}
+* informRestaurant{"hotel_info": "shopping places"}
+    - slot{"hotel_info": "shopping places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "shopping places"}
+    - slot{"hotel_info": "shopping places"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "food restaurants"}
+    - slot{"hotel_info": "food restaurants"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "food restaurants"}
+    - slot{"hotel_info": "food restaurants"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "food in pakistan"}
+    - slot{"hotel_info": "food in pakistan"}
+* informRestaurant{"hotel_info": "it"}
+    - slot{"hotel_info": "it"}
+    - restaurant_form
+* informRestaurant{"hotel_info": "restaurants in lahore"}
+    - slot{"hotel_info": "restaurants in lahore"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "restaurants in lahore"}
+    - slot{"hotel_info": "restaurants in lahore"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "restaurants in karachi"}
+    - slot{"hotel_info": "restaurants in karachi"}
+* informRestaurant{"hotel_info": "restaurants in karachi"}
+    - slot{"hotel_info": "restaurants in karachi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "restaurants in karachi"}
+    - slot{"hotel_info": "restaurants in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+* informRestaurant{"hotel_info": "famous restaurants in mumbai"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "food in malaysia"}
+    - slot{"hotel_info": "food in malaysia"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "food in malaysia"}
+    - slot{"hotel_info": "food in malaysia"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "turkey dinner places"}
+    - slot{"hotel_info": "turkey dinner places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "turkey dinner places"}
+    - slot{"hotel_info": "turkey dinner places"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+* informRestaurant{"hotel_info": "afghani food"}
+    - slot{"hotel_info": "afghani food"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "afghani food"}
+    - slot{"hotel_info": "afghani food"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "chinese food"}
+    - slot{"hotel_info": "chinese food"}
+
+
+* informRestaurant{"hotel_info": "restaurants in lahore"}
+    - slot{"hotel_info": "restaurants in rawalpindi"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "places in paris"}
+    - slot{"hotel_info": "restaurants in karachi"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "hotels in rawalpindi"}
+    - slot{"hotel_info": "hotels near my location"}
+* informRestaurant{"hotel_info": "restaurants in attock"}
+    - slot{"hotel_info": "restaurants in pris"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "Chinese restaurant"}
+    - slot{"hotel_info": "desi food restaurants"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+     - restaurant_form
+* informRestaurant
+* informRestaurant{"hotel_info": "famous restaurants in mumbai"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - slot{"hotel_info": "famous restaurants in mumbai"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "food in malaysia"}
+    - slot{"hotel_info": "food in malaysia"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "food in malaysia"}
+    - slot{"hotel_info": "food in malaysia"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "turkey dinner places"}
+    - slot{"hotel_info": "turkey dinner places"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "restaurants near my location"}
+    - slot{"hotel_info": "restaurants near my location"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant
+* informRestaurant{"hotel_info": "afghani food"}
+    - slot{"hotel_info": "afghani food"}
+    - restaurant_form
+    - form{"name": "restaurant_form"}
+    - slot{"hotel_info": "afghani food"}
+    - slot{"hotel_info": "afghani food"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+* informRestaurant{"hotel_info": "asian oriental"}
+    - slot{"hotel_info": "asian oriental"}
+    - restaurant_form
