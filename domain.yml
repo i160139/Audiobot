@@ -1,0 +1,53 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- mood_great
+- smalltalk_agent_annoying
+- smalltalk_user_looks_like
+- smalltalk_agent_beautiful
+- smalltalk_agent_my_friend
+- smalltalk_user_joking
+- smalltalk_agent_there
+- smalltalk_dialog_hug
+- smalltalk_user_lonely
+- smalltalk_agent_marry_user
+- smalltalk_emotions_wow
+- stop
+- mood_unhappy
+- ask_fine
+- smalltalk_agent_bad
+- smalltalk_agent_chatbot
+- bot_challenge
+- global_warming
+- smalltalk_agent_funny
+- smalltalk_user_sleepy
+- greet
+- smalltalk_emotions_ha_ha
+- smalltalk_dialog_hold_on
+- smalltalk_greetings_goodmorning
+- smalltalk_user_busy
+- smalltalk_user_bored
+- smalltalk_user_can_not_sleep
+- goodbye
+- affirm
+- smalltalk_user_does_not_want_to_talk
+- smalltalk_greetings_goodnight
+- smalltalk_agent_birth_date
+- smalltalk_agent_be_clever
+- smalltalk_user_has_birthday
+- smalltalk_agent_hungry
+- smalltalk_dialog_sorry
+- smalltalk_user_going_to_bed
+- smalltalk_agent_boss
+- smalltalk_agent_busy
+- smalltalk_user_misses_agent
+- smalltalk_agent_clever
+- smalltalk_agent_fired
+- thank_you
+- smalltalk_agent_crazy
+- smalltalk_agent_residence
+- smalltalk_agent_age
+- smalltalk_agent_talk_to_me
+- deny
+- smalltalk_user_angry
